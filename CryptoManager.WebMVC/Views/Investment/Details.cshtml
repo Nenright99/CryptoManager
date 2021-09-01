@@ -1,0 +1,82 @@
+﻿@model CryptoManager.Models.InvestmentDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>InvestmentDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.InvestmentId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InvestmentId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CryptoId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CryptoId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tokens)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tokens)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InvPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InvPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OwnerId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OwnerId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedUtc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedUtc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedUtc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedUtc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.InvestmentId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

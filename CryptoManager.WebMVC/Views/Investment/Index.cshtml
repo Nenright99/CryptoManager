@@ -1,0 +1,85 @@
+﻿@model IEnumerable<CryptoManager.Models.InvestmentListItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@if (TempData.ContainsKey("SaveResult"))
+{
+    <div class="alert alert-success fade in" role="alert">
+        @ViewBag.SaveResult
+        <button type="button" class="close" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+    </div>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.InvestmentId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CryptoId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tokens)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InvPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OwnerId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedUtc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ModifiedUtc)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.InvestmentId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CryptoId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tokens)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InvPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OwnerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedUtc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifiedUtc)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.InvestmentId }) |
+                @Html.ActionLink("Details", "Details", new { id=item.InvestmentId }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.InvestmentId })
+            </td>
+        </tr>
+    }
+
+</table>
