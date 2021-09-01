@@ -8,16 +8,9 @@
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>InvestmentDetail</h4>
+    <h4>Details</h4>
     <hr />
     <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.InvestmentId)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.InvestmentId)
-        </dd>
 
         <dt>
             @Html.DisplayNameFor(model => model.Amount)
@@ -28,7 +21,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.CryptoId)
+            Crypto ID
         </dt>
 
         <dd>
@@ -44,7 +37,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.InvPrice)
+            Initial Investment Pricee
         </dt>
 
         <dd>
@@ -52,15 +45,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.OwnerId)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.OwnerId)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.CreatedUtc)
+            Purchase Date
         </dt>
 
         <dd>
@@ -68,7 +53,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ModifiedUtc)
+            Bought/Sold On
         </dt>
 
         <dd>
@@ -82,7 +67,7 @@
 
         <div class="form-actions no-color">
             <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
+            @Html.ActionLink("Back to Investments", "Index")
         </div>
     }
 </div>

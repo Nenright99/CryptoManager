@@ -85,6 +85,10 @@ namespace CryptoManager.Services
                     {
                         InvestmentId = entity.InvestmentId,
                         Amount = entity.Amount,
+                        CryptoId = entity.CryptoId,
+                        Tokens = entity.Tokens,
+                        OwnerId = entity.OwnerId,
+                        InvPrice = entity.InvPrice,
                         CreatedUtc = entity.CreatedUtc,
                         ModifiedUtc = entity.ModifiedUtc
                     };

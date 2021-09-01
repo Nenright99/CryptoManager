@@ -12,6 +12,7 @@ namespace CryptoManager.Models
         [Required]
         public decimal Amount { get; set; }
         [Required]
+        [Display(Name ="Crypto ID")]
         public int CryptoId { get; set; }
     }
 }

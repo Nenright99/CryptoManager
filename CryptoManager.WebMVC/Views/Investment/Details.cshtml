@@ -4,14 +4,13 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Investment Details</h2>
 
 <div>
-    <h4>InvestmentDetail</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.InvestmentId)
+            Investment ID
         </dt>
 
         <dd>
@@ -27,7 +26,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.CryptoId)
+            Crypto ID
         </dt>
 
         <dd>
@@ -43,7 +42,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.InvPrice)
+            Initial Investment Price
         </dt>
 
         <dd>
@@ -51,15 +50,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.OwnerId)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.OwnerId)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.CreatedUtc)
+            Purchase Date
         </dt>
 
         <dd>
@@ -67,7 +58,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ModifiedUtc)
+            Bought/Sold On
         </dt>
 
         <dd>
@@ -77,6 +68,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.InvestmentId }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Buy/Sell", "Edit", new { id = Model.InvestmentId }) |
+    @Html.ActionLink("Back to Investments", "Index")
 </p>

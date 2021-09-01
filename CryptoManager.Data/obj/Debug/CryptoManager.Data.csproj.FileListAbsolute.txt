@@ -18,3 +18,4 @@ C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Data\obj\Debug\Cr
 C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Data\obj\Debug\CryptoManager.Data.csproj.GenerateResource.cache
 C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Data\obj\Debug\CryptoManager.Data.Migrations.Fundsadded.resources
 C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Data\obj\Debug\CryptoManager.Data.Migrations.FundsDeleted.resources
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Data\obj\Debug\CryptoManager.Data.Migrations.Annotations.resources

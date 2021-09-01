@@ -45,6 +45,7 @@ namespace CryptoManager.Services
                         {
                             TransactionId = e.TransactionId,
                             Amount = e.Amount,
+                            OwnerId = e.OwnerId,
                             CreatedUtc = e.CreatedUtc
                         }
                         );
@@ -64,6 +65,7 @@ namespace CryptoManager.Services
                     {
                         TransactionId = entity.TransactionId,
                         Amount = entity.Amount,
+                        OwnerId = entity.OwnerId,
                         CreatedUtc = entity.CreatedUtc,
                     };
             }

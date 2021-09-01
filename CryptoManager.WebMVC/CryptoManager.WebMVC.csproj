@@ -242,16 +242,16 @@
     <Content Include="Views\Investment\Details.cshtml" />
     <Content Include="Views\Investment\Edit.cshtml" />
     <Content Include="Views\Investment\Delete.cshtml" />
-    <Content Include="Views\Crypto\Index.cshtml" />
-    <Content Include="Views\Crypto\Create.cshtml" />
-    <Content Include="Views\Crypto\Details.cshtml" />
-    <Content Include="Views\Crypto\Edit.cshtml" />
-    <Content Include="Views\Crypto\Delete.cshtml" />
     <Content Include="Views\Transaction\Index.cshtml" />
     <Content Include="Views\Transaction\Create.cshtml" />
     <Content Include="Views\Transaction\Details.cshtml" />
     <Content Include="Views\Transaction\Edit.cshtml" />
     <Content Include="Views\Transaction\Delete.cshtml" />
+    <Content Include="Views\Crypto\Index.cshtml" />
+    <Content Include="Views\Crypto\Create.cshtml" />
+    <Content Include="Views\Crypto\Details.cshtml" />
+    <Content Include="Views\Crypto\Edit.cshtml" />
+    <Content Include="Views\Crypto\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

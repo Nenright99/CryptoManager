@@ -4,22 +4,13 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
-
 <div>
-    <h4>CryptoDetail</h4>
+    <h4>Details</h4>
     <hr />
     <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.CryptoId)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.CryptoId)
-        </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Name)
+            Currency
         </dt>
 
         <dd>
@@ -45,6 +36,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Update", "Edit", new { id = Model.CryptoId}) |
     @Html.ActionLink("Back to List", "Index")
 </p>
