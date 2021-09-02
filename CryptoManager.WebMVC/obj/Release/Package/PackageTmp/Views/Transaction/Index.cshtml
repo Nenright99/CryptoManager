@@ -1,0 +1,47 @@
+﻿@model IEnumerable<CryptoManager.Models.TransactionListItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Transactions</h2>
+
+<p>
+    @Html.ActionLink("Deposit", "Create")
+</p>
+@if (TempData.ContainsKey("SaveResult"))
+{
+    <div class="alert alert-success fade in" role="alert">
+        @ViewBag.SaveResult
+        <button type="button" class="close" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+    </div>
+}
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>
+                Transaction Date
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedUtc)
+                </td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id=item.TransactionId })
+                </td>
+            </tr>
+        }
+
+    </table>

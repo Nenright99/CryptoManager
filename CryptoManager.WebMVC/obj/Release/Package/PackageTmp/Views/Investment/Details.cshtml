@@ -1,0 +1,73 @@
+﻿@model CryptoManager.Models.InvestmentDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Investment Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Investment ID
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InvestmentId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+
+        <dt>
+            Crypto ID
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CryptoId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tokens)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tokens)
+        </dd>
+
+        <dt>
+            Initial Investment Price
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InvPrice)
+        </dd>
+
+        <dt>
+            Purchase Date
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedUtc)
+        </dd>
+
+        <dt>
+            Bought/Sold On
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedUtc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Buy/Sell", "Edit", new { id = Model.InvestmentId }) |
+    @Html.ActionLink("Back to Investments", "Index")
+</p>

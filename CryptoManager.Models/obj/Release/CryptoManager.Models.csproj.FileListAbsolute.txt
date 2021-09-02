@@ -1,0 +1,16 @@
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\bin\Release\CryptoManager.Models.dll.config
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\bin\Release\CryptoManager.Models.dll
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\bin\Release\CryptoManager.Models.pdb
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\bin\Release\EntityFramework.dll
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\bin\Release\EntityFramework.SqlServer.dll
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\bin\Release\EntityFramework.xml
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\bin\Release\EntityFramework.SqlServer.xml
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\obj\Release\CryptoManager.Models.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\obj\Release\CryptoManager.Models.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\obj\Release\CryptoManager.Models.csproj.CopyComplete
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\obj\Release\CryptoManager.Models.dll
+C:\ElevenFiftyProjects\Assignments\CryptoManager\CryptoManager.Models\obj\Release\CryptoManager.Models.pdb

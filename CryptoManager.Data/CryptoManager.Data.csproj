@@ -57,43 +57,12 @@
     <Compile Include="Crypto.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Investment.cs" />
-    <Compile Include="Migrations\202109010204536_TickerChange.cs" />
-    <Compile Include="Migrations\202109010204536_TickerChange.Designer.cs">
-      <DependentUpon>202109010204536_TickerChange.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202109010434293_Funds added.cs" />
-    <Compile Include="Migrations\202109010434293_Funds added.Designer.cs">
-      <DependentUpon>202109010434293_Funds added.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202109010524159_Funds Deleted.cs" />
-    <Compile Include="Migrations\202109010524159_Funds Deleted.Designer.cs">
-      <DependentUpon>202109010524159_Funds Deleted.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202109011009372_Annotations.cs" />
-    <Compile Include="Migrations\202109011009372_Annotations.Designer.cs">
-      <DependentUpon>202109011009372_Annotations.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Transaction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202109010204536_TickerChange.resx">
-      <DependentUpon>202109010204536_TickerChange.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202109010434293_Funds added.resx">
-      <DependentUpon>202109010434293_Funds added.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202109010524159_Funds Deleted.resx">
-      <DependentUpon>202109010524159_Funds Deleted.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202109011009372_Annotations.resx">
-      <DependentUpon>202109011009372_Annotations.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

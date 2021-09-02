@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2021-09-01T13:57:13.2558924Z"
+    }
+  },
+  "parameters": {
+    "mssql2.subscriptionId": {
+      "Name": "mssql2.subscriptionId",
+      "Type": "subscription",
+      "Value": "d8e82eab-b779-4afb-ac53-d40f3b17bcfc"
+    },
+    "CryptoManagerWebMVC20210901093607.resourceName": {
+      "Name": "CryptoManagerWebMVC20210901093607.resourceName",
+      "Type": null,
+      "Value": "CryptoManagerWebMVC20210901093607"
+    },
+    "CryptoManagerWebMVC20210901093607.resourceGroupName": {
+      "Name": "CryptoManagerWebMVC20210901093607.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "CryptoManagerProjectResourceGroup"
+    },
+    "mssql2.resourceGroupName": {
+      "Name": "mssql2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "CryptoManagerProjectResourceGroup"
+    },
+    "CryptoManagerWebMVC20210901093607.subscriptionId": {
+      "Name": "CryptoManagerWebMVC20210901093607.subscriptionId",
+      "Type": "subscription",
+      "Value": "d8e82eab-b779-4afb-ac53-d40f3b17bcfc"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "d8e82eab-b779-4afb-ac53-d40f3b17bcfc"
+    },
+    "CryptoManagerWebMVC20210901093607.resourceGroupLocation": {
+      "Name": "CryptoManagerWebMVC20210901093607.resourceGroupLocation",
+      "Type": null,
+      "Value": "southcentralus"
+    }
+  }
+}

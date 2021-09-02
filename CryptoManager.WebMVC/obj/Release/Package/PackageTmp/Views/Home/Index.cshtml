@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <h1>Your Portfolio</h1>
+    }
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <h1>Start Investing Now</h1>
+    }
+</div>
